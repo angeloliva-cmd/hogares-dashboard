@@ -1,0 +1,14 @@
+{
+  "name": "hogares-dashboard",
+  "homepage": "https://angeloliva-cmd.github.io/hogares-dashboard-LS",
+  "version": "0.0.0",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  ...
+}
